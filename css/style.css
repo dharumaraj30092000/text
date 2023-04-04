@@ -1,0 +1,94 @@
+/*------- text-color ------*/
+.text-color h1 {
+	color: green;
+}
+/*------- text-align ------*/
+.text-align h1 {
+	text-align: /*left*/ /*ceter*/ right;
+	color: yellow;
+}
+.text-align p {
+	text-align: justify;
+	color: red;
+	text-align-last: justify /*center*/ /*right*/;
+}
+/*------- text-direction ------*/
+.text-direction h2 {
+	direction: rtl;
+	unicode-bidi: bidi-override;
+}
+/*------- vertical-align ------*/
+.vertical-align img.baseline {
+	vertical-align: baseline;
+}
+.vertical-align img.text-top {
+	vertical-align: text-top;
+}
+.vertical-align img.text-bottom {
+	vertical-align: text-bottom;
+}
+.vertical-align img.sub {
+	vertical-align: sub;
+}
+.vertical-align img.super {
+	vertical-align: super;
+}
+/*------- text-decoration ------*/
+.text-decoration p.overline {
+	text-decoration: overline;
+	text-decoration-color: red;
+	text-decoration-style: solid;
+	text-decoration-thickness: 5px;
+}
+.text-decoration p.line-through {
+	text-decoration: line-through;
+	text-decoration-color: yellow;
+	text-decoration-style: /*dotted*/ wavy;
+	background: black;
+	color: white;
+}
+.text-decoration p.underline {
+	text-decoration: underline;
+	text-decoration-color: green;
+	text-decoration-style: /*dashed*/ double;
+}
+.text-decoration a {
+	text-decoration: none;
+}
+/*------- text-transform ------*/
+.text-transform .uppercase {
+	text-transform: uppercase;
+}
+.text-transform .lowercase {
+	text-transform: lowercase;
+}
+.text-transform .capitalize {
+	text-transform: capitalize;
+}
+/*------- text-space ------*/
+.text-space .indent {
+	text-indent: 10px;
+}
+.text-space .l-spacing {
+	letter-spacing: 10px;
+}
+.text-space .w-spacing {
+	word-spacing: 10px;
+}
+.text-space .height {
+	line-height: 3;
+	background: orange;
+}
+.text-space .space {
+	white-space: nowrap /*wrap*/;
+}
+/*------- text-shadow ------*/
+.text-shadow h1 {
+	text-shadow: 2px 2px 1px red;
+}
+.text-shadow h2 {
+	text-shadow: 2px 2px 1px red, 2px 2px 1px blue;
+}
+.text-shadow h3 {
+	text-shadow: 2px 2px 1px red, 2px 2px 1px yellow, 2px 2px 1px green;
+}
